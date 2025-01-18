@@ -1,21 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #D7D4DD;
+  --black: #000000;
+  --border: #C0BFC1;
+  --border-file: #330069;
+  --border-folder: #B58502;
+  --file: #D9B3F3;
+  --folder: #F5BB19;
+  --green: #15FF00;
+  --icon: #353F38;
+  --text2: #383838;
+  --red: #FE0000;
+  --white: #FFFFFF;
 }
 
 body {
-  color: var(--foreground);
+  color: var(--black);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Gabarito';
 }
